@@ -1,0 +1,124 @@
+.banner{
+    width:100%;
+    height:550px;
+    background-image: url('/public/Pics/img-1.jpg');
+    background-size: cover;
+    transition: 0.4s;
+}
+.banner-container{
+    padding: 10rem;
+    margin-left: 7rem;
+}
+.banner-tit{
+   color:#fff;
+   font-size: 1.3rem;
+   /* padding-bottom: 1rem; */
+}
+.banner-text{
+   color:#fff;
+   font-size: 1.2rem;
+   padding-bottom: 1rem;
+}
+.btn-1{
+    padding:0.2rem 1rem; 
+   background: white;
+   border: 1px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: 0.3s ease-in;
+   margin: 1rem;
+}
+.btn-2{
+    padding:0.2rem 1rem;
+    background: black;
+    border: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+.btn-1-text{
+    font-weight: bold;
+}
+.btn-2-text{
+    font-weight: bold;
+}
+.btn-1:hover{
+    background: black;
+    color: #fff;
+}
+.btn-2:hover{
+    background: white;
+    color: #000;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.blog-tit{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.blog1{
+   width:20%;
+   text-align: center;
+}
+.blog1 img{
+    width:70%;
+    margin:0.5rem;
+    cursor: pointer;
+    transition: transform .3s ease; 
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 ,0, 0, 0.2);
+    padding:0.3rem;
+}
+.blog1 img:hover{
+    transform: scale(1.1);
+}
+.blog1 span{
+    padding: 1rem;
+}
+.blog1 p{
+    font-size:0.8rem;
+    padding: 1rem;
+}
+.blog1 .btn-1{
+   background-color:rgb(241, 241, 241);
+   font-weight: 700;
+}
+.blog1 .btn-1:hover{
+    background-color:rgb(251,223,113);
+    color:#000;
+}
+
+.stats-title{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+.stats{
+    display: flex;
+    /* flex-wrap: wrap; */
+    height:200px;
+    padding: 1rem;
+    background-color: black;
+}
+.high_ele_child{
+    /* display: inline-block; */
+    border:1px solid white;
+    padding:1rem;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+ .high_title{
+    font-size: 30px;
+    color: #fff;
+ }
+ .high_desc{
+    font-size: 25px;
+    color:#fff
+ }
