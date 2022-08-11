@@ -5,7 +5,6 @@ import App from './App';
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 
-
 const steps = [
   {
       id: '0',
